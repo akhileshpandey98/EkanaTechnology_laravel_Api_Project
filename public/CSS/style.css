@@ -1,0 +1,2271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+    box-sizing: border-box;
+}
+
+/* title logo */
+.ET-Logo {
+    font-family: "Poppins", serif;
+    width: 50px;
+    /* Adjust size as needed */
+    height: auto;
+    margin-right: 15px;
+}
+
+/**===============================================The Headre Update Code 05/02/2025=======================================================**/
+.navbar-nav .nav-link.active::before {
+    display: none !important;
+    background-color: currentColor;
+    transition: bottom .2s ease-in-out;
+}
+
+.nav-header {
+    background: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 70px;
+    /* Adjust height for proper centering */
+    display: flex;
+    align-items: center;
+    /* Center content vertically */
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* Ensures vertical alignment */
+    justify-content: space-between;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+    width: auto;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-nav .nav-link {
+    padding: 10px 15px;
+    font-size: 15px;
+}
+
+.dropdown-menu {
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #dc3024;
+}
+
+.nav-link.active:hover {
+    color: #dc3024;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+    .nav-header {
+        height: auto;
+        /* Allows flexibility on smaller screens */
+        padding: 10px 0;
+        /* Adjusts vertical spacing */
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .dropdown-menu {
+        text-align: center;
+    }
+
+    .navbar-brand img {
+        max-height: 50px;
+        /* Adjust logo size for smaller screens */
+        max-width: 20rem;
+    }
+
+    .btn {
+        margin-top: 5px;
+        height: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-nav .nav-link {
+        padding: 8px 12px;
+        font-size: 1.0rem;
+    }
+
+    .navbar-brand img {
+        max-height: 50px;
+        /* Adjust logo size for smaller screens */
+        max-width: 20rem;
+    }
+}
+
+
+
+
+/* =============Dropdown-Megamenu Item Styling ==============*/
+/* Dropdown Header Styling */
+.dropdown-header {
+    font-size: 1.2rem;
+
+    font-weight: bold;
+    color: #dc3024;
+    padding-bottom: 6px;
+    border-bottom: 3px solid gray;
+    margin-bottom: 12px;
+}
+
+/* Dropdown Item Styling */
+.dropdown-item {
+    padding: 10px 15px;
+    font-size: 1.0rem;
+    color: black;
+    transition: all 0.3s ease-in-out;
+    display: block;
+    border: none;
+    background-color: transparent;
+}
+
+/* Hover Effect */
+.dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff !important;
+    padding-left: 20px;
+}
+
+/* Mobile & Tablet Adjustments */
+@media (max-width: 768px) {
+    .dropdown-header {
+        font-size: 14px;
+        border-bottom: 2px solid white;
+    }
+
+    .dropdown-item,h6 {
+        font-size: 0.85rem;
+
+    }
+}
+
+@media (max-width: 576px) {
+    .dropdown-header {
+        font-size: 13px;
+        border-bottom: 1px solid white;
+    }
+
+    .dropdown-item {
+        font-size: 0.8rem;
+        padding: 6px 10px;
+    }
+}
+
+
+/* Hover effect on dropdown items */
+.dropdown-item:hover {
+    background: #dc3024;
+    color: white;
+    transform: scale(1.0);
+    text-align: justify;
+    border-radius: 5px;
+
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .mega-dropdown {
+        width: 100%;
+        position: static;
+        display: block;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        box-shadow: none;
+        overflow: hidden;
+
+    }
+}
+
+
+.mega-animation {
+    background:white;
+    background-size: 300% 300%;
+    animation: gradientAnimation 6s infinite linear;
+    min-height: 60vh;
+    margin: 0;
+    overflow: hidden;
+    width: auto;
+
+}
+
+
+
+/* =========End Mega Menu============= */
+
+/**The  Summer Training Section start**/
+.card-section-summer {
+    height: 4.5rem;
+    width: 100%;
+    color: white;
+    background-color: #dc3024;
+    margin-top: -2rem;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* padding-top: 1rem; */
+}
+
+.pt {
+    position: relative;
+    top: 1rem;
+}
+
+.card-section-summer img {
+    height: 3.2rem;
+    width: 3.2rem;
+    position: relative;
+    /* left: 1.2rem; */
+}
+
+.card-section-summer h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: relative;
+    left: 2rem;
+    top: 1rem;
+}
+
+.card-overview {
+    height: 3rem;
+    width: 100%;
+    background-color: rgba(255, 52, 84, 1);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+.latest-job {
+    background-image: url('../ekimage/image/lastedjobbg.png');
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.latest-job .container-job-section {
+    background-color: rgba(0, 0, 0, 0.55);
+    height: auto;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: white;
+}
+
+/**The Summer Training Section ends**/
+/**===========================================The Header Update Code 05/02/2025 ===============================================**/
+/***========================================The Our Training  section  start ==============================================****/
+.card .card-trainign {
+    height: 4rem;
+    width: 4rem;
+    background-color: rgba(21, 98, 201);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -3rem;
+    box-shadow: 5px 5px 10px 10px white;
+    margin-left: 9.5rem;
+}
+
+.card .card-trainign i {
+    font-size: 1.5rem;
+    color: white;
+}
+
+/**The Animation section start**/
+
+/***========================================The Our Training  section  ends ==============================================****/
+
+
+/*--========= The Our Mission Section Start=========--*/
+.card .card-mission {
+    height: 4rem;
+    width: 4rem;
+    background-color: rgba(21, 98, 201);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -3rem;
+    box-shadow: 5px 5px 10px 10px white;
+    margin-left: 10.5rem;
+}
+
+.card:hover .card-mission {
+    background-color: rgba(21, 98, 201, 0.8);
+}
+
+.card .card-mission i {
+    color: white;
+    font-size: 1.5rem;
+}
+
+/**Our Vision start**/
+.card .card-vision {
+    height: 4rem;
+    width: 4rem;
+    background-color: rgba(35, 153, 192);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -3rem;
+    box-shadow: 5px 5px 10px 10px white;
+    margin-left: 10.5rem;
+}
+
+.card:hover .card-vision {
+    background-color: rgba(35, 153, 192, 0.8);
+}
+
+.card .card-vision i {
+    color: white;
+    font-size: 1.5rem;
+}
+
+/*--========= The Our Mission Section Ends=========--*/
+
+
+/*==================== Loader body=============== */
+body,
+html {
+    height: 100%;
+    margin: 0;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    display: none;
+    text-align: center;
+}
+
+/** The Loader Css Start **/
+.loader-mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 99999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes swing {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(10deg);
+    }
+
+    50% {
+        transform: rotate(-10deg);
+    }
+
+    75% {
+        transform: rotate(5deg);
+    }
+
+    100% {
+        transform: rotate(0deg)s;
+    }
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+    animation: swing 1.5s infinite ease-in-out;
+    transform-origin: top center;
+    height: 300px;
+    width: 300px;
+}
+
+.logo_img {
+    margin-top: 10%;
+    height: 200px;
+    width: 200px;
+    background-image: url('/ekimage/image1/ET_Logo_icon.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .logo {
+        width: 75px;
+        height: 75px;
+        font-size: 18px;
+    }
+
+    .logo_img {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        width: 50px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    .logo_img {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+/* ========modal============= */
+@keyframes blink {
+    0% {
+        transform: scale(1.0)
+    }
+
+    50% {
+        transform: scale(.9)
+    }
+
+    100% {
+        transform: scale(1.0)
+    }
+}
+
+.modal-zoom {
+    animation: blink 2s infinite;
+}
+
+/**The Our Mission and Vission start**/
+#myImage:hover {
+    transform: scale(1);
+
+}
+
+/**The Our Mission and Vission ends**/
+/** Top Header Start Update 28-12-2024**/
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+#login-botton-header {
+    background-color: #dc3545;
+    color: white;
+    border-radius: 10px;
+    animation-name: login;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-delay: 1s;
+    border: none;
+}
+
+@keyframes login {
+    0% {
+        background-color: #767676;
+        color: white;
+    }
+
+    25% {
+        background-color: #dc3024;
+        color: white;
+    }
+
+    50% {
+        background-color: #767676;
+        color: white;
+    }
+}
+
+/** Top Header Ends Update 28-12-2024**/
+
+
+.top-bar {
+    background: #dc3024 !important;
+    height: 50px;
+    color: #f4f4f4;
+    padding: 15px 0;
+    font-size: 0.9rem;
+}
+
+
+.top-bar a {
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+.top-bar i {
+    font-size: 1.2rem;
+}
+
+.counter {
+    background-image: url('image/46.jpeg');
+    text-align: center;
+}
+
+.employees,
+.customer,
+.design,
+.order {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.counter-count {
+    font-size: 18px;
+    background-color: #000000;
+    border-radius: 50%;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    line-height: 92px;
+    width: 92px;
+    height: 92px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: inline-block;
+}
+
+.employee-p,
+.customer-p,
+.order-p,
+.design-p {
+    font-size: 24px;
+    color: #000000;
+    line-height: 34px;
+}
+
+@media (min-width: 1024px) {
+    .col-lg-7 {
+        flex: 0 4 auto;
+        width: 40 .333333%;
+    }
+}
+
+.h-100 {
+    height: 98% !important;
+}
+
+.p-3 {
+    padding: 0.25rem !important;
+}
+
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+
+    /**The Top header start**/
+    .top-bar {
+        background: #dc3024;
+        height: auto !important;
+        color: #fff;
+        padding: 15px 0;
+        font-size: 0.9rem;
+    }
+
+
+    /**The Top Header ends**/
+    /**The Our Mission and Our Vision Section start**/
+    .card .card-vision {
+        position: relative;
+        margin-left: 8.3rem !important;
+    }
+
+    .card .card-mission {
+        position: relative;
+        margin-left: 8.3rem !important;
+    }
+
+    /**The Our Mission and Our Vision section start**/
+    /**==========The Summer Training Section =================**/
+    .card-section-summer {
+        width: 100% !important;
+        height: 3.5rem !important;
+        margin-left: 0rem !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0rem !important;
+    }
+
+    .card-section-summer img {
+        width: 2rem !important;
+        height: 2rem !important;
+        position: relative;
+        left: 0rem !important;
+    }
+
+    .card-section-summer h3 {
+        font-size: 1rem !important;
+        font-weight: bold;
+        position: relative;
+        left: 0.5rem !important;
+        top: 0rem !important;
+    }
+
+    /**==========The Summer Training Section =================**/
+    /* .loader div { */
+    /* background-color: #dc3024; */
+    /* display: inline-block;
+        float: none;
+        color: #dc3024;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .loader {
+        position: absolute;
+        left: 30%;
+        top: 30%;
+        width: 200px;
+        height: 200px;
+        font-size: 0;
+        color: #dc3024;
+        display: inline-block;
+        margin: -25px 0 0 -25px;
+        text-indent: -9999em;
+    } */
+
+    .register-banner-form-right {
+        display: none;
+    }
+
+    .contect-img {
+        display: none;
+    }
+
+    .footer .col-md-3 {
+        margin-bottom: 20px;
+    }
+
+    .side-banner-left {
+        display: none;
+    }
+
+    .side-banner-right {
+        display: none;
+    }
+
+    #footer-left {
+        padding-top: 0px !important;
+    }
+
+    #footer-middle {
+        padding-top: 0px !important;
+    }
+
+    #footer-middle1 {
+        padding-top: 0px !important;
+    }
+
+    #footer-right {
+        padding-top: 0px !important;
+    }
+
+    #btnContactUs {
+        height: 3.12rem;
+        width: 64% !important;
+        background-color: #dc3024;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        margin-top: 0.7rem;
+    }
+
+    #h2 {
+        font-size: 1.1rem;
+        color: #dc3024;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    #login-botton-header {
+        background-color: #dc3024;
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    /* .footer .logo img {
+        max-width: 70px;
+        
+    } */
+
+    /* .footer h5 {
+        font-size: 16px;
+    }
+
+    .footer p,
+    .footer a {
+        font-size: 13px;
+    } */
+    /* The Our Teams Image Start Slider Responsive */
+    .news-item {
+        box-shadow: 0px 5px 10px #dc3024;
+    }
+
+    .news-item img {
+        width: 100% !important;
+        height: 192px !important;
+        background-color: #ccc !important;
+        box-shadow: 0px 5px 10px #dc3024;
+    }
+
+    /* The Our Teams Image Ends Slider Responsive */
+
+    /** The Video Setion Start Here **/
+    .video-mobile-views {
+        height: 450px;
+        width: 100%;
+
+    }
+
+    .card {
+
+        margin: 0px !important;
+        border: none;
+    }
+
+    /** The Video Section Ends Here **/
+}
+
+.card-container {
+    width: 100%;
+    max-width: 97%;
+    margin: auto;
+    padding: 20px;
+}
+
+.card {
+    overflow: hidden;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+
+    /* Animation on hover */
+}
+
+.card:hover {
+    transform: scale(2.05);
+    height: auto;
+    /* background-color: #0062cc; */
+    /* Slightly scale on hover */
+}
+
+.box-training {
+    /* background-image: url('/ekimage/image/Learn skills in classroom copy (1).jpg'); */
+    background-color: rgba(241, 241, 241, 0.18);
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+#content-section {
+    background-image: url('/ekimage/image/project training new page copy.png');
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.container-trainig {
+    /* background-color: rgba(127,28,22,0.5); */
+    height: auto;
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+}
+
+#container-bot {
+    background-color: rgba(0, 0, 0, .35);
+    width: 100%;
+    height: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.count-section {
+    background-image: url('/ekimage/image/Learn skills in classroom copy (1).jpg');
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.count-section-child {
+    background-color: rgba(127, 28, 22, 0.5);
+    height: auto;
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+/* Image responsive styling */
+.card-img {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.5s ease;
+    /* Fade-in animation */
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    top: -40px;
+    position: absolute;
+}
+
+.carousel-control-prev {
+    left: 15px;
+}
+
+.carousel-control-next {
+    right: 15px;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.news-item {
+    /* border: 1px solid #e0e0e0; */
+    padding: 20px;
+    margin: 4px;
+    border-radius: 5px;
+}
+
+.news-item img {
+    width: 400px;
+    height: 400px;
+    background-color: #ccc;
+}
+
+.news-item h5 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.news-item p {
+    font-size: 14px;
+}
+
+span {
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #0062cc;
+
+}
+
+/* .box {
+    padding: 60px 0px;
+} */
+
+.box-part {
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0;
+    padding: 60px 10px;
+    margin: 30px 0px;
+}
+
+.text {
+    margin: 20px 0px;
+}
+
+.fa {
+    color: #4183D7;
+}
+
+/* =========whatsupp/call icon =========*/
+.side-banner-left {
+    position: fixed;
+    left: 10px;
+    bottom: 20px;
+    width: 60px;
+    /* Slightly increased width */
+    height: 130px;
+    /* Increased height */
+    border-radius: 30px;
+    /* Rounded edges */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 1000;
+    padding: 10px 0;
+    gap: 12px;
+    /* Increased spacing between buttons */
+}
+
+/* Adjust icon container */
+.side-banner-left a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    /* Increased size for better touch area */
+    height: 50px;
+    text-decoration: none;
+    border-radius: 50%;
+    /* Circular shape */
+}
+
+/* WhatsApp Button */
+.whatsapp-link {
+    background: #25D366;
+    /* WhatsApp Green */
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    /* Soft shadow */
+    transition: transform 0.2s ease-in-out;
+}
+
+.whatsapp-link i {
+    font-size: 32px;
+    /* Bigger WhatsApp Icon */
+}
+
+/* Call Button */
+.call-link {
+    background: #007AFF;
+    /* iPhone Call Blue */
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.call-link i {
+    font-size: 32px;
+    /* Bigger Call Icon */
+}
+
+/* Hover Effect */
+.whatsapp-link:hover,
+.call-link:hover {
+    transform: scale(1.1);
+    /* Slightly enlarge on hover */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .side-banner-left {
+        width: 50px;
+        height: 110px;
+        left: 5px;
+        bottom: 15px;
+    }
+
+    .side-banner-left a {
+        width: 45px;
+        height: 45px;
+    }
+
+    .whatsapp-link i,
+    .call-link i {
+        font-size: 28px;
+    }
+}
+
+/* end */
+
+/* .side-banner-left, */
+.side-banner-right {
+    position: fixed;
+    top: 70%;
+    transform: translateY(-50%);
+    z-index: 1000;
+
+}
+
+/* .side-banner-left {
+    left: 0;
+} */
+
+
+.side-banner-right {
+    right: 0;
+}
+
+.vertical-text-left,
+.vertical-text-right {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: white;
+    min-height: 40px;
+    background-color: #dc3545;
+    /* Adjust colors as needed */
+    padding: 0.5rem 0.6rem;
+    text-align: center;
+    /**Working Update start**/
+    animation-name: vertical-right-left;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-delay: 1s;
+}
+
+@keyframes vertical-right-left {
+    0% {
+        background-color: #767676;
+        color: white;
+    }
+
+    25% {
+        background-color: #dc3024;
+        color: white;
+    }
+
+    50% {
+        background-color: #767676;
+        color: white;
+    }
+}
+
+/**Working Update ends**/
+
+.card-imgg {
+    padding: 20px;
+}
+
+.card-imgg {
+    border: none;
+    border-radius: 15px;
+    /* Rounded corners */
+    background-color: #ffffff;
+    /* White background */
+    /* transition: transform 0.3s, box-shadow 0.3s; */
+    overflow: hidden;
+}
+
+.card-imgg:hover {
+    transform: translateY(-10px);
+    /* Slight lift on hover */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-img-top {
+    width: 100%;
+    height: auto;
+    border-radius: 15px 15px 0 0;
+    /* Rounded corners only at the top */
+}
+
+.card-body-imgg h5 {
+    font-weight: bold;
+    color: #333;
+}
+
+.card-body p {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/*--------------------------------------------------------------
+# About Section
+--------------------------------------------------------------*/
+.about h3 {
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about .fst-italic {
+    color: color-mix(in srgb, var(--default-color), var(--contrast-color) 50%);
+}
+
+.about .content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about .content ul li {
+    padding: 0 0 10px 30px;
+    position: relative;
+}
+
+.about .content ul i {
+    position: absolute;
+    font-size: 20px;
+    left: 0;
+    top: -3px;
+    color: var(--accent-color);
+}
+
+.about .content p:last-child {
+    margin-bottom: 0;
+}
+
+.about .pulsating-play-btn {
+    position: absolute;
+    left: calc(50% - 47px);
+    top: calc(50% - 47px);
+}
+
+/* counter css */
+.counter {
+    font-size: rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/**summer training*/
+.card-11 {
+    background: #FF3454;
+    height: 300px;
+    width: 100%;
+    position: relative;
+    border-radius: 30px;
+}
+
+.card-11 .card-img {
+    position: relative;
+    height: 8rem;
+    width: 8rem;
+    left: 9.4rem;
+    top: 2rem;
+
+}
+
+/***/
+.card-12 {
+    background-color: #00a138;
+    height: 300px;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.card-12 .card-img2 {
+    position: relative;
+    height: 8rem;
+    width: 8rem;
+    left: 9.4rem;
+    top: 2rem;
+
+}
+
+/**three Box**/
+.card-13 {
+    background-color: #ff7a00;
+    height: 300px;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.card-13 .card-img3 {
+    position: relative;
+    height: 8rem;
+    width: 8rem;
+    left: 9.4rem;
+    top: 2rem;
+
+}
+
+/** four box */
+.card-14 {
+    background-color: #A12F7A;
+    height: 300px;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.card-14 .card-img4 {
+    position: relative;
+    height: 8rem;
+    width: 8rem;
+    left: 9.4rem;
+    top: 2rem;
+
+}
+
+/**five box*/
+.card-15 {
+    background-color: #FFB400;
+    height: 300px;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.card-15 .card-img5 {
+    position: relative;
+    height: 8rem;
+    width: 8rem;
+    left: 9.4rem;
+    top: 2rem;
+
+}
+
+/** The Six*/
+.card-16 {
+    background-color: #4FC5D2;
+    height: 300px;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.card-16 .card-img6 {
+    position: relative;
+    height: 8rem;
+    width: 8rem;
+    left: 9.4rem;
+    top: 2rem;
+
+}
+
+.our-seission {
+    background-color: white;
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+
+}
+
+
+/* Responsive Certificate Image Styling */
+.certificate-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    max-height: 35rem; /* Adjust height for better visibility */
+}
+
+/* Centered Text */
+.certificate-card h3, .certificate-card p, .certificate-card h4 {
+    text-align: center;
+}
+
+/* Media Queries for Mobile */
+@media (max-width: 768px) {
+    .certificate-img {
+        max-height: 25rem; /* Reduce height for smaller screens */
+    }
+    .certificate-card h3 {
+        font-size: 1.5rem;
+    }
+    .certificate-card h4 {
+        font-size: 1.2rem;
+    }
+    .certificate-card p {
+        font-size: 1rem;
+    }
+}
+
+
+/**About Section ends*/
+/*--------------------------------------------------------------
+# Blog Posts Section
+--------------------------------------------------------------*/
+.blog-posts article {
+    background-color: var(--surface-color);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.blog-posts .post-img {
+    max-height: 240px;
+    margin: -30px -30px 15px -30px;
+    overflow: hidden;
+}
+
+.blog-posts .post-category {
+    font-size: 16px;
+    color: color-mix(in srgb, var(--default-color), transparent 40%);
+    margin-bottom: 10px;
+}
+
+.blog-posts .title {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.blog-posts .title a {
+    color: var(--heading-color);
+    transition: 0.3s;
+}
+
+.blog-posts .title a:hover {
+    color: var(--accent-color);
+}
+
+.blog-posts .post-author-img {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.blog-posts .post-author {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.blog-posts .post-date {
+    font-size: 14px;
+    color: color-mix(in srgb, var(--default-color), transparent 40%);
+    margin-bottom: 0;
+}
+
+/* Adding subtle shadow and padding to the text */
+.card-body-imgg {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #33334d;
+}
+
+/**The Placement Section Start**/
+.placement-hero-banner {
+    background-image: url('/ekimage/image/placement-banner.svg');
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    position: relative;
+}
+
+.placement-hero-banner .placement-hero-desc {
+    width: 100%;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.placement-hero-desc .placement-top-banner-title {
+    position: relative;
+    top: 6rem;
+    color: white;
+    text-shadow: 2px 3px 5px red;
+}
+
+.placement-hero-desc .placement-desc {
+    position: relative;
+    top: 10rem;
+}
+
+/** The Placement Section Start**/
+/* counter start */
+
+
+.team-section {
+    background-image: url('../ekimage/image/46.jpeg');
+    /* Replace with your image path */
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    min-height: 400px;
+    /* Set minimum height */
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    gap: 5rem;
+
+}
+
+.team-overlay {
+    background-color: rgb(110 32 32 / 50%);
+    /* Dark overlay */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.team-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    /* Space between items */
+    flex-wrap: wrap;
+    /* Wrap items on smaller screens */
+}
+
+.team-item h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.team-item p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+/* counter end  */
+
+/**===============================Populor Course Section Start =====================================**/
+.card-course-hover {
+    position: relative;
+    height: 18rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 100%;
+}
+
+.card-course-hover .card-back-hover {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.59);
+    height: 18rem;
+    width: 100%;
+    top: -18rem;
+    display: none;
+}
+
+.card-back-hover i {
+    position: relative;
+    top: 8rem;
+    left: 8.5rem;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+
+.card-back-hover a {
+    position: relative;
+    background-color: #dc3024;
+    color: rgba(255, 255, 255, 1);
+    height: 1.2rem;
+    width: 2.5rem;
+    top: 15rem;
+    font-size: 1.3;
+    font-weight: 800;
+    padding: 1rem;
+    left: 11.7rem;
+}
+
+.card-course-hover:hover .card-back-hover {
+    display: block;
+    color: #dc3545;
+}
+
+/**===============================Populor Course Section Ends =====================================**/
+/*--------------------------------------------------------------
+# Scroll Top Button
+--------------------------------------------------------------*/
+.scroll-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: -15px;
+    z-index: 99999;
+    line-height: 49px;
+    background-color: #fff;
+    box-shadow: 0 2px 2px 0 #00000024, 0 1px 5px 0 #0000001f, 0 3px 1px -2px #0003;
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+
+.scroll-top i {
+    font-size: 24px;
+    color: black;
+    line-height: 0;
+}
+
+.scroll-top i:hover {
+    color: black;
+}
+
+.scroll-top:hover {
+    background-color: white;
+    color: var(--contrast-color);
+}
+
+.scroll-top.active {
+    visibility: visible;
+    opacity: 1;
+    bottom: 15px;
+}
+
+/* topbar css */
+
+
+.top-bar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.top-bar .social-icons i {
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+/* topbar end */
+
+
+/* our traning programs start */
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: none;
+    transition: transform 0.3s ease;
+
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.card-text {
+    font-size: 1em;
+    color: #1b1a1a;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+
+    /**The Our Training Courses **/
+    .title {
+        font-size: 0.8rem;
+    }
+
+    .container {
+        padding: 3px 15px;
+    }
+
+    .team-section {
+        background-image: url('../ekimage/image/46.jpeg');
+        /* Replace with your image path */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: white;
+        height: 400px;
+        /* Set minimum height */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        text-align: center;
+    }
+
+    /** The Responsive of About Us Section Start**/
+    .about-us-section {
+        background-image: url('../ekimage/image/46.jpeg');
+        /* Replace with your image path */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: white;
+        height: 400px;
+        width: 100vw;
+        /* Set minimum height */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        text-align: center;
+    }
+
+    .ratio iframe {
+        width: 100% !important;
+        height: 210px !important;
+
+    }
+
+    /* .msme{
+        display: flex;
+        flex-direction: column;
+     } */
+    /** The REsponsive of About Us Section Start**/
+}
+
+/* our traning programs end */
+.hover-move img {
+    transition: transform 1s ease;
+
+
+}
+
+.hover-move:hover img {
+    transform: translateY(-35px);
+    animation-iteration-count: infinite;
+}
+
+/* @keyframes move-up-down 
+{ 0% { transform: translateY(0); }
+ 50% { transform: translateY(-10px); }
+ 100% { transform: translateY(0); } 
+}
+ .hover-move img
+  { 
+    animation: move-up-down 1s infinite;
+ } */
+/**Our Teams Section Start**/
+.team-us-section {
+    position: relative;
+    color: white;
+    text-align: center;
+    background-image: url('../ekimage/image/46.jpeg');
+    background-size: 100%;
+    /* Replace with your image path */
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* background-position: center center; */
+    height: auto;
+    /* position: relative; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.team-us-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(110 32 32 / 50%);
+    /* Dark overlay */
+    z-index: 1;
+
+}
+
+/**The Teams Our end section**/
+.about-us-section {
+    position: relative;
+    color: white;
+    text-align: center;
+    background-image: url('../ekimage/image/46.jpeg');
+    background-size: 100%;
+    background-size: cover;
+    height: 400px;
+    /* position: relative; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(110 32 32 / 50%);
+    /* Dark overlay */
+    z-index: 1;
+}
+
+.about-us-content {
+    position: relative;
+    z-index: 2;
+}
+
+.hover-effect {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-effect:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.hero {
+    background: #721a1a;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* .content-section {
+    padding: 18px 0px;
+} */
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.popular-courses img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.card-100 {
+    transition: all 0.4s ease-in-out;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+/* Card Hover Effect */
+.card-100:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    /* background:#767676; */
+}
+
+/* Icon Animation */
+.card-icon {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-100:hover .card-icon {
+    transform: scale(1.3) rotate(10deg);
+}
+
+/* Text Animation */
+.card-title {
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    color: red;
+}
+
+.card-100:hover .card-title {
+    color: black;
+    transform: scale(1.0);
+}
+
+.card-text {
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+
+
+
+}
+
+.card-100:hover .card-text {
+    transform: scale(1.05);
+    /* color: white !important; */
+    /* transition: 2s; */
+
+
+    opacity: .9;
+}
+
+/* Button Effect */
+.btn1 {
+    display: inline-block;
+    background-color: #33334d;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+.btn1:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+}
+
+/* .card-100 h5:hover{
+    color: white;
+} */
+/* .card:hover {
+    transform: translateY(-10px);
+    transition: transform 0.3s ease;
+} */
+
+.card2 {
+    position: relative;
+    margin-top: 20px;
+    box-shadow: 2px 3px 5px red;
+    border-radius: 20px;
+    /* Remove margin-left to center cards in a responsive grid */
+}
+
+.card2 img {
+    height: 300px;
+    width: 100%;
+    transition: 0.5s;
+    border-radius: 20px;
+
+}
+
+.btn1 {
+    height: 40px;
+    width: 120px;
+    color: black;
+    padding: 0.7rem;
+    background-color: white;
+    border-radius: 0.2rem;
+    border: 1px solid #33334d;
+    position: relative;
+    top: 2rem;
+}
+
+.child-div p {
+    padding-top: 1.4rem;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-bottom: 2.8rem;
+    background-color: #DC3024;
+    color: rgba(255, 255, 255, 1);
+    width: 500px;
+    margin-top: 5rem;
+    /* height:300px; */
+}
+
+.child-div h5 {
+    padding-top: 0.5rem;
+}
+
+.child-div h6 {
+    padding-top: 0rem;
+
+}
+
+.child-div {
+    height: 5.5rem;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+.card2:hover .child-div {
+    height: 100%;
+    border-radius: 20px;
+}
+
+.info-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: auto;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.info-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+@media (height: 500px) {
+    .logo {
+        height: 20px;
+    }
+
+    .info-text {
+        font-size: 20px;
+    }
+}
+
+
+/*--------------------------------------------------------------
+# contact or Maps address 
+--------------------------------------------------------------*/
+.address-section {
+    background-image: url('/ekimage/image/Life\ time\ support\ copy\ \(1\).jpg');
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.address-section .address-section-bg-color {
+    height: auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.55);
+    padding-top: 7.5rem;
+    padding-bottom: 3rem;
+}
+
+.address-section .card-office-section {
+    height: 250px;
+    width: 100%;
+    /* border: 1px solid rgba(255,255,255,1); */
+    border: 1px solid #868686;
+}
+
+.address-section .card-icon-rounded-top {
+    height: 6rem;
+    width: 6rem;
+    border: 2px solid white;
+    border-radius: 100%;
+    /* background-color: rgba(134,134,134,1); */
+    background-color: rgba(255, 255, 255, 1);
+    position: relative;
+    top: -3rem;
+    left: -0.1rem;
+}
+
+.address-section .card-icon-rounded-top i {
+    font-size: 2.5rem;
+    color: #da3023;
+    line-height: 2rem;
+    left: 1.8rem;
+    top: 2rem;
+    position: relative;
+}
+
+/* The Address Map Ends----------------------*/
+
+.contact-container {
+    background-color: #e4d4d1;
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 20px black;
+}
+
+@media (max-width:576px) {
+    .img1 {
+        display: none;
+    }
+
+    .too-header-download {
+        display: grid;
+    }
+
+    .too-header-download a {
+        padding-bottom: 10px;
+
+    }
+
+    .too-header-download i {
+        padding-left: 10px;
+    }
+}
+
+
+/**Footer Start*/
+
+#footer {
+    background: #dc3024;
+    height: auto;
+    width: 100%;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+
+#certificate {
+    padding-top: 3.5rem;
+    text-align: center;
+}
+
+#dowloaded-certificate {
+    height: 50px;
+    width: 80%;
+    border-radius: 5px;
+    background: white;
+    color: #dc3024;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+
+/**Our Teams Testomonial*/
+h3 {
+    margin: 0;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.testimonial {
+    background: #4D241C;
+    padding: 30px 32px 30px 90px;
+    margin: 50px 20px 50px 120px;
+    border-radius: 0 100px 100px 0;
+    color: #fff;
+    position: relative;
+    border: 5px solid #D0AB6D;
+}
+
+.testimonial .pic {
+    width: 210px;
+    height: 210px;
+    /* line-height: 200px; */
+    border-radius: 50%;
+    border: 14px solid #D0AB6D;
+    position: absolute;
+    top: -15px;
+    left: -120px;
+    overflow: hidden;
+}
+
+.testimonial .pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.testimonial .testimonial-info {
+    display: inline-block;
+    width: 35%;
+    float: left;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 28px 25px;
+    margin: 0;
+    border-right: 1px solid #D0AB6D;
+}
+
+.testimonial .testimonial-info small {
+    display: block;
+    font-size: 12px;
+    color: #fff;
+    margin-top: 5px;
+}
+
+.testimonial .description {
+    display: inline-block;
+    width: 65%;
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: 0.5px;
+    margin-bottom: 0;
+    padding: 28px 0 28px 28px;
+    position: relative;
+}
+
+.testimonial .description:before {
+    content: "\f10d";
+    font-family: fontawesome;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    font-size: 20px;
+    color: #D0AB6D;
+}
+
+.testimonial .description:after {
+    content: "\f10e";
+    font-family: fontawesome;
+    font-size: 20px;
+    color: #D0AB6D;
+    position: absolute;
+    bottom: 5px;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls .owl-page span {
+    width: 25px !important;
+    height: 7px !important;
+    background: #4D241C !important;
+    box-sizing: content-box;
+}
+
+.owl-theme .owl-controls .owl-page span {
+    border: 4px solid transparent;
+    background: #D0AB6D !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .testimonial {
+        border-radius: 40px;
+        margin: 90px 15px 0;
+        padding: 100px 40px 30px 40px;
+    }
+
+    .testimonial .pic {
+        position: absolute;
+        top: -85px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .testimonial .testimonial-info {
+        width: 100%;
+        float: none;
+        border-right: none;
+        text-align: center;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    }
+
+    .testimonial .description {
+        width: 100%;
+    }
+
+    .btn1 {
+        height: 40px;
+        width: 120px;
+        color: black;
+        padding: 0.7rem;
+        background-color: white;
+        border-radius: 0.2rem;
+        border: 1px solid #33334d;
+        position: relative;
+        top: 0rem !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .testimonial {
+        padding: 100px 30px 30px;
+    }
+
+    .card-section-summer h3 {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 326px) {
+    .card-section-summer h3 {
+        font-size: 1.2rem;
+    }
+
+    .card-section-summer h3 {
+        font-size: 1rem;
+    }
+}
+
+
+/* Heading  */
+.h2 {
+    /* text-shadow: 2px 3px 5px red; */
+    color: #767676;
+    font-size: 3rem;
+}
+
+/* Heading Animation */
+.line {
+    width: 1000%;
+    height: 3px;
+    margin: auto;
+    background-color: #767676;
+    animation: lineAnimation 3s forwards infinite;
+}
+
+@keyframes lineAnimation {
+    0% {
+        width: 0;
+        margin: auto;
+    }
+
+    100% {
+        width: 50%;
+        margin: auto;
+    }
+
+}
+
